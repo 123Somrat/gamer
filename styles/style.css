@@ -11,19 +11,20 @@ body{
 }
 :root{
      --primary :#FF42A5;
+     --primary_FontWeight : 700px;
      --secondary_FontSize : 15px;
-     --secondary_FontWeight : 400px;
+     --secondary_FontWeight : 500px;
      --secondary_FontColor:rgba(83, 76, 100, 1)
 }
 
 .main{
-    width: 1280px;
+    width: 1920px;
     height:130px;
     background: #FFF;
-    box-shadow: rgba(0, 0, 0, 0.05);
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;
+  
+ 
 }
 .title{
      display: flex;
@@ -62,7 +63,7 @@ ul li{
      height: 56px;
      border-radius: 8px;
       background: rgba(11, 2, 35, 0.10);
-     margin-right: 20px;
+     margin-right: 240px;
      margin-top: 37px;
 }
 .social_media_title{
@@ -73,4 +74,133 @@ ul li{
 }
 .youtube_logo{
     margin-right: 15px;
+}
+
+.signin{
+    display: flex;
+}
+
+.sign_in_details{
+      width: 901px;
+      height: 700px;
+      position:relative;
+        
+}
+.sign_in_img{
+    position:absolute;
+}
+
+.details{
+    position: absolute;
+    width: 400px;
+    height:250px;
+    top: 148px;
+    margin-left: 240px;
+   
+    
+}
+.details>h1{
+     font-weight: var(--primary_FontWeight);
+}
+.goat{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+
+}
+.main_feature{
+    display: flex;
+}
+.icon{
+     display: flex;
+     flex-direction: column;
+     margin-right: 15px;
+}
+.icon{
+    margin-top: 10px;
+}
+.icon>svg{
+    margin-bottom: 16px;
+}
+.p1{
+     margin-top: 12px;
+     margin-bottom: 25px;
+}
+.p2{
+    margin-bottom: 20px;
+}
+.game_picture{
+    width: 901px;
+    height: 700px;  
+}
+.game_picture > img{
+     width: 600px;
+     height: 700px;
+}
+
+
+/* 
+  Mobile responsive design
+*/
+
+@media only screen and (max-width:476px){
+    .main{
+        width: 360px;
+        height: 200px;
+        flex-direction: column;
+        padding: 25px;
+        
+    }
+    img{
+         padding-left: 0px;
+         margin-bottom: 15px;
+         width: 76px;
+         height: 35px;
+    }
+    ul{
+        flex-direction: column;
+        
+    }
+    .about{
+         margin-bottom: 20px;
+    }
+    .navigation{
+        flex-direction: column;
+    }
+    .social_media{
+        margin-left: 30px;
+    }
+    .signin{
+        flex-direction: column-reverse;
+        border: 1px solid red;
+        margin: 10px;
+    }
+    
+    .game_picture{
+        width: 350px;
+        height: 400px;
+        margin: 20px;
+    }
+    .game_picture>img{
+        width: 350px;
+        height: 350px; 
+    }
+    .sign_in_details{
+        width: 350px;
+        height: 400px;
+        margin: 10px;
+   
+    }
+    .details{
+        width: 276px;
+        height: 200px;
+        top:80px;
+        margin-left: 80px;
+      
+    }
+    .svg{
+        width: 355px;
+        height: auto;
+    }
 }
