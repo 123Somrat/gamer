@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.main{
+    width: 1920px;
+    height:130px;
+    background: #FFF;
+    box-shadow: rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+img{
+    width: 86px;
+    height: 40px; 
+}
+.navigation{
+    display: flex;
+}
+ul {
+    display: flex;
+}
