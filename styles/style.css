@@ -3,27 +3,74 @@
     padding: 0px;
     
 }
+body{
+    
+    font-family: 'EB Garamond', serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+:root{
+     --primary :#FF42A5;
+     --secondary_FontSize : 15px;
+     --secondary_FontWeight : 400px;
+     --secondary_FontColor:rgba(83, 76, 100, 1)
+}
 
 .main{
-    width: 1920px;
+    width: 1280px;
     height:130px;
     background: #FFF;
     box-shadow: rgba(0, 0, 0, 0.05);
     display: flex;
     justify-content: space-between;
+    border: 1px solid red;
 }
 .title{
      display: flex;
      justify-content: center;
      align-items: center;
+    
 }
 img{
     width: 86px;
     height: 40px; 
+    padding-left: 240px;
+    margin-right: 8px;
+}
+.game_title{
+     color:var(--primary)
 }
 .navigation{
     display: flex;
 }
 ul {
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+   list-style-type: none;
+    margin-right: 40px;
+    font-size: var(--secondary_FontSize);
+    font-weight: var(--secondary_FontWeight);
+    color: var(--secondary_FontColor);
+   
+}
+.social_media{
+     display: flex;
+     width: 262px;
+     height: 56px;
+     border-radius: 8px;
+      background: rgba(11, 2, 35, 0.10);
+     margin-right: 20px;
+     margin-top: 37px;
+}
+.social_media_title{
+   margin: 17px 25px 18px 24px;  
+}
+.social_media_logo{
+     margin: 16px 5px 16px 5px;
+}
+.youtube_logo{
+    margin-right: 15px;
 }
