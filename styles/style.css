@@ -377,6 +377,7 @@ place{
     align-items: center;
     margin-right: 30px;
 }
+
 .game_type1:first-child{
     margin-left: 249px;
   
@@ -396,12 +397,12 @@ place{
     border-radius: 48px;
     background: #FFF;
 }
-.arcade_games{
-     border:1px solid #F948B2;
-}
-.arcade_games>p{
+.div1:hover,.game_type2>div:hover{
+    border:1px solid #F948B2;
     color:#F948B2; ;
 }
+
+
 .game_type2{
     margin-top: 30px;
     margin-left: 335px;
@@ -418,8 +419,56 @@ place{
 .game_type2>div>img{
     padding-left: 15px;
 }
-
-
+.footer{
+    width: 1920px;
+    height: 427px;
+    background-color:#0B0223 ;
+    margin-top: 50px;
+}
+.amer{
+    color: white;
+}
+.footer_title{
+    padding-top:120px;
+}
+ul{
+    margin-top: 40px;
+    margin-left: 300px;
+}
+ul li{
+    padding: 15px;
+    color: #FFF;
+}
+.media>img{
+    width: 40px;
+    height: 40px;
+}
+.media{
+    margin-left: 861px;
+    margin-top: 25px;
+}
+.media>i{
+    margin-right: 50px;
+}
+.terms_condition{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 750px;
+ 
+}
+li{
+    color: white;
+    list-style: none;
+    margin-right: 48px;
+}
+.copyRight{
+    color: white;
+    margin-top: 20px;
+    margin-left: 950px;
+    font-size: 12px;
+    font-weight: 500px;
+    
+}
 /* 
   Mobile responsive design
 */
