@@ -365,10 +365,59 @@ place{
     width: 950px;
     height: 650px;
 }
-
-
-
-
+.games_container{
+    margin-top: 100px;
+}
+.game_type1,.game_type2{
+    display: flex;
+    
+}
+.game_type1>div{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.game_type1:first-child{
+    margin-left: 249px;
+  
+}
+.game_type1>div>img{
+    padding-left: 5px;
+   
+}
+.types{
+    word-wrap: none;
+}
+.div1{
+    width: 283px;
+    height: 83px;
+    border: 1px solid white;
+    box-shadow: 1px 0.5px 2px;
+    border-radius: 48px;
+    background: #FFF;
+}
+.arcade_games{
+     border:1px solid #F948B2;
+}
+.arcade_games>p{
+    color:#F948B2; ;
+}
+.game_type2{
+    margin-top: 30px;
+    margin-left: 335px;
+}
+.game_type2>div{
+    display: flex;
+    width: 317px;
+    height: 80px;
+    align-items: center;
+    box-shadow: 1px 0.5px 2px;;
+    border-radius:48px;
+    margin-right: 30px;
+}
+.game_type2>div>img{
+    padding-left: 15px;
+}
 
 
 /* 
