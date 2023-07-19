@@ -17,14 +17,13 @@ body{
      --secondary_FontColor:rgba(83, 76, 100, 1)
 }
 
+
 .main{
     width: 1920px;
     height:130px;
     background: #FFF;
     display: flex;
     justify-content: space-between;
-  
- 
 }
 .title{
      display: flex;
