@@ -225,12 +225,92 @@ ul li{
     color: var(--secondary_FontColor);
     word-wrap: break-word;
 }
+.instantPlay_container{
+    width: 1200px;
+    height:700px;
+    display: flex;
+    margin-left: 439px;
+   
+}
+.game_critariya{
+    margin-top: 336px;
+}
+.instant{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent; 
+}
 
-
-
-
-
-
+.instantPlay_des{
+    font-size: var(--secondary_FontSize);
+    color: var(--secondary_FontColor);
+    word-break: break-all
+}
+.hrs_pic{
+    width: 634px;
+    height: 650px;
+    margin-top: 120px;
+    position: relative;
+}
+.cat_pic{
+    width: 318px;
+    height: 365px;
+    position: relative;
+    top: -250px;
+    right: 150px;
+}
+.gamePlay_container{
+    width: 1300px;
+    height:700px;
+    display: flex;
+    margin-top: 400px; 
+    margin-left: 238px;
+}
+.gamePlay_img{
+    margin-right: 230px;
+}
+.cherectar1_pic{
+  width: 710px;
+  height: 650px;
+  margin-left:10px;
+  padding-left: 10px;
+  
+}
+.cherecter2_pic{
+    width: 318px;
+    height: 365px;
+    position: relative;
+    top: -315px;
+    left: 300px;
+    margin-right: 249px;
+    
+    
+}
+.gamePlay_critariya{
+    margin-top: 270px; 
+    width: 500px;
+    height: 500px;
+}
+.play_games{
+    word-wrap: none;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent; 
+}
+.online{
+ 
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent; 
+}
+.playGames_des{
+    font-size: var(--secondary_FontSize);
+    color: var(--secondary_FontColor);
+    word-break: break-all 
+}
 
 
 
