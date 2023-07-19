@@ -179,6 +179,36 @@ ul li{
     font-size: var(--secondary_FontSize);
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%))
 }
+.vedio{
+     position: relative;
+}
+.vedio:hover .play_vedio{
+    width: 342px;
+    height: 400px;
+    position:absolute;
+     background-color: rgba(0,0,0,0.8);
+    border: 1px solid #FF42A5;
+    top: -1px;
+    border-radius: 15px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.fa-play{
+    display: inline-block;
+    margin-bottom: 20px;
+    color: white;
+}
+.watch{
+    color: #FF42A5;
+}
+.play_vedio{
+    display: none;
+}
+
 .purpose{
     text-align: end;
     font-size: var(--secondary_FontSize);
