@@ -533,28 +533,33 @@ li{
   Mobile responsive design
 */
 
-@media only screen and (max-width:476px){
+@media only screen and (max-width:576px){
     .main{
-        width: 360px;
-        height: 200px;
+        width: auto;
+        height: auto;
         flex-direction: column;
         padding: 25px;
+        border: 1px solid red;
         
+    }
+    .title>img{
+        width:100px
     }
     img{
          padding-left: 0px;
          margin-bottom: 15px;
-         width: 76px;
-         height: 35px;
+         padding-right: 10px;
+         width: 100%;
     }
     ul{
         flex-direction: column;
+        margin-left: 25px;
+        align-items: center;
+        justify-content: center;
         
     }
     .about{
-        margin-bottom: 20px; 
-        
-         
+        margin-bottom: 20px;   
     }
     
     .navigation{
@@ -566,7 +571,7 @@ li{
     .signin{
         flex-direction: column-reverse;
         border: 1px solid red;
-        margin: 10px;
+        
     }
     
     .game_picture{
@@ -592,7 +597,234 @@ li{
       
     }
     .svg{
-        width: 355px;
+        width: 100%;
         height: auto;
+    }
+    .gamer{
+        flex-direction: column;
+        width: auto;
+        border: 1px solid red;
+    }
+    
+    .gamer_img{
+        width: auto;
+     
+    }
+    .gamer_container{
+        margin-right: 10px;
+        text-align: justify;
+        padding: 10px;
+    }
+    .gamer_title{
+        text-align: center;
+    }
+    .gamer_des{
+        text-align: center;
+    }
+    .btn{
+        margin-left: 70px;
+    }
+    .purpose{
+        text-align: center;
+    }
+    .dialogue{
+     
+        text-align: center;
+    }
+    .funny_vedios{
+        border: 1px solid green;
+        margin-top:80px;
+        margin-bottom: 50px;
+     
+       
+    }
+    .vedio_des{
+        font-size: 10px;
+    }
+    .vedio_container{
+        flex-direction: column;
+        margin: 12px ;
+    }
+    .vedio_container>div{
+        margin-bottom: 20px;
+       
+    }
+    
+    .vedio_container>div>p{
+         font-size: 12px;
+         text-align: center;
+    }
+    .instantPlay_container{
+        width: auto;
+        height: auto;
+        margin-left: 0px;
+        flex-direction: column;
+        border: 1px solid turquoise;
+    }
+    .game_critariya{
+        margin-top: 41px;
+    }
+    .instant,.install,.no_download{
+        text-align: center;
+        line-height: 35px;
+        font-size: 30px;
+        margin-bottom: 9px;
+    }
+    .game_critariya>p{
+        text-align: center; 
+    }
+    .game_img{
+         width: auto;
+      
+    }
+    .hrs_pic{
+        width: 80%;
+        height: auto;
+        margin-left: 75px;
+        margin-top: 50px;
+    }
+    .cat_pic{
+        width: auto;
+        height: 200px;
+        margin-left: 160px;
+        top: -143px;
+    }
+    .gamePlay_container{
+            width: auto;
+            height: auto;
+            flex-direction: column;
+            margin-top: 10px;
+            margin-left: 0px;
+            
+    }
+    .gamePlay_img{
+        margin-right: 0px;
+        margin-top: 30px;
+       
+    }
+    .cherectar1_pic{
+        width: 80%;
+        height: auto;
+        margin: 0px;
+        padding: 10px;
+          
+    }
+    .cherecter2_pic{
+        width: auto;
+        height: 200px;
+        left:180px;
+        top: -125px;
+        margin-right: 150px;
+    }
+    .gamePlay_critariya{
+        margin-top: 10px;
+        width: auto;
+        height: auto;
+    }
+    
+    .play_games,.anywhere,.anytime{
+        text-align: center;
+        line-height: 35px;
+        font-size: 30px;
+        margin-bottom: 9px;
+    }
+    
+    .gamePlay_critariya>p{
+        text-align: center;
+        
+    }
+    .careers_container{
+        width: auto;
+        height: auto;
+        flex-direction: column;
+    }
+    .career{
+        width: auto;
+        margin-bottom: 15px;
+        padding: 5px;
+    }
+    .career_title{
+         text-align: center;
+         margin: 0px;
+    }
+    .career_des{
+        margin: 0px;
+        text-align: center;
+    }
+    .artist_palce_Container{
+        margin: 0px;
+        padding: 14px;
+        
+    }
+    .artist{
+        width: 48%;
+        height: 260px;
+        margin-right: 10px;
+        margin-bottom: 30px;
+    }
+    .place{
+        width: 48%;
+        height: 260px;
+    }
+    .position{
+        margin-left: 10px;
+        
+    }
+    .kids_img{
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .games_container{
+        width: auto;
+        margin-left: 10px;
+        margin-top: 102px;
+    }
+    .game_type1{
+        flex-wrap: wrap;    
+    }
+    .game_type1:first-child{
+        margin-left: 0px;
+    }
+    .div1{
+        width: 150px;
+        margin-bottom: 10px;
+        
+    }
+    .types,.p{
+        font-size: 10px;
+    }
+    .div1>img{
+        padding: 0px;
+        width: 35px;
+        height: 35px;
+        margin-left: 4px;
+    }
+    .game_type2{
+        flex-wrap: wrap;
+        margin-left: 0px;
+        width: auto;
+    }
+    .game_type2>div{
+        width: 150px;
+        margin-bottom: 10px;
+    }
+    .game_type2>div>img{
+        padding:0;
+        padding-left:1px;
+        width: 30px;
+        height: 30px;
+    }
+    .game_type2>div>p{
+        font-size: 12px;
+    }
+    .footer{
+        width: auto;
+        height: auto;
+    }
+    .footer_title>img{
+        width: 50px;
+        padding:1px;
     }
 }
